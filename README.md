@@ -25,7 +25,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.
-The tests are in tests folder. More tests can be added.
+The tests are in tests folder.
 
 ## Folder Structure
 
