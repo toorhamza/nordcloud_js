@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Project 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+NordCloud's assignment => Find the best power link station for a device. The data provided is user coordinates and link station coordinates. The distance was calculated using pythagoras theorem and front end was created using React. I also added the feature to add new power stations and test with new user coordinates.
 
-## Available Scripts
+## Comments
+The focus while building this app was to keep it simple and understandable so it can be maintained by more than 1 developer. I avoided typing one liners and split the tasks into small parts/functions so anyone can understand it. 
 
-In the project directory, you can run:
+## Access Deployed Version
 
-### `npm start`
+You can access the deployed build at [http://toorhamza.com/nordcloud/](http://toorhamza.com/nordcloud/)
 
-Runs the app in the development mode.\
+## Run Locally
+
+To run this app on your local computer. Clone this repo and use the commands below.
+
+### `npm install`
+
+This will install all the node modules required to run the app.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in the interactive watch mode.
+The tests are in tests folder. More tests can be added.
 
-### `npm run build`
+## Folder Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The application has a simple layout which can be easily maintained and expanded. All the source files are in "src" folder so all new files should be added there unless they need to be put in root.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Source Layout
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Components => These are the components used in React to display data. All components are in modular structure. Stylesheets and other related code and be added to component's folder.
+Data -> JSON data files can be found here.
+Hooks -> The logic regarding the app is in hooks. Custom hooks were created to perform different tasks.
+Tests -> All the tests are in this folder.
 
-### `npm run eject`
+index.js, App.js -> The main files which import all the other components and render them on screen.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
