@@ -33,10 +33,10 @@ The application has a simple layout which can be easily maintained and expanded.
 
 ## Source Layout
 
-Components => These are the components used in React to display data. All components are in modular structure. Stylesheets and other related code and be added to component's folder.
-Data -> JSON data files can be found here.
-Hooks -> The logic regarding the app is in hooks. Custom hooks were created to perform different tasks.
-Tests -> All the tests are in this folder.
+ - Components => These are the components used in React to display data. All components are in modular structure. Stylesheets and other related code and be added to component's folder.
+ - Data -> JSON data files can be found here.
+ - Hooks -> The logic regarding the app is in hooks. Custom hooks were created to perform different tasks.
+ - Tests -> All the tests are in this folder.
 
 index.js, App.js -> The main files which import all the other components and render them on screen.
 
