@@ -16,6 +16,10 @@ To run this app on your local computer. Clone this repo and use the commands bel
 ### `npm install`
 
 This will install all the node modules required to run the app.
+
+### `npm start`
+
+Starts the app in development mode. 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### `npm test`
